@@ -19,12 +19,14 @@
   box-sizing: border-box;
   font-family: "Cairo", sans-serif;
 }
+
 body {
   background-image: linear-gradient(60deg, rgba(225, 255, 0, 0.87), rgba(255, 47, 0, 0.886)), url(../images/bg.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: repeat-y;
 }
+
 .row {
   display: flex;
   justify-content: space-between;
@@ -33,9 +35,11 @@ body {
   margin: auto;
   box-shadow: 0px 15px 18px #272727ae;
 }
+
 .section-bc-white {
   background-color: var(--background-color-sec);
 }
+
 .standard {
   text-align: center;
   color: #000;
@@ -43,46 +47,56 @@ body {
   width: 80%;
   margin: -28px auto;
 }
+
 .standard h2 {
   font-size: 2rem;
   font-weight: 300;
 }
+
 .standard h2 span {
   font-weight: 600;
 }
+
 .standard .text-stand {
   padding: 25px 0;
   width: 500px;
   margin: auto;
   line-height: 1.4;
 }
+
 /******************** End global styles ************************/
 
 nav {
   background-color: var(--background-color-sec);
 }
-nav ul{
+
+nav ul {
   height: 80px;
   justify-content: right !important;
 }
+
 .row-ul-nav {
   box-shadow: none;
 }
+
 nav ul li {
   list-style-type: none;
   margin-right: 15px;
 }
+
 nav ul li a {
   color: var(--main-color);
-  text-decoration:none ;
+  text-decoration: none;
 }
+
 nav ul li a:hover {
   color: rgb(0, 0, 0);
 }
+
 header {
   background-image: url(../images/hero-2.jpg);
   background-size: cover;
-  background-position:bottom;
+  background-position: bottom;
   /* max-width: 100%; */
   height: 600px;
   width: 80%;
@@ -93,45 +107,56 @@ header {
   -ms-border-radius: 10px 10px 0 0;
   -o-border-radius: 10px 10px 0 0;
 }
+
 header .hero-sec {
   margin: 10px auto;
   text-align: center;
   width: 500px;
 }
+
 header .hero-sec h1 {
   font-weight: 200;
   font-size: 4rem;
   margin-top: 120px;
 }
+
 header .hero-sec p {
   margin-top: -30px;
   font-size: 1.2rem;
   color: var(--sec-color);
 }
+
 .build-website {
   background-color: #fff;
   text-align: center;
   padding-bottom: 90px;
 }
+
 .build-website div {
   width: calc(100% / 3);
 }
+
 .build-website img {
   max-width: 100%;
 }
+
 .build-website h3 {
   font-weight: 600;
 }
+
 .build-website p {
   color: var(--sec-color);
 }
+
 .build-website a {
   text-decoration: none;
   color: var(--card-three-color);
 }
+
 .build-website a:hover {
   color: red;
 }
+
 .about {
   color: #fff;
   text-align: center;
@@ -139,323 +164,430 @@ header .hero-sec p {
   padding-bottom: 50px;
   justify-content: space-evenly;
 }
+
 .about i {
   font-size: 1.5rem;
   background-color: transparent;
 }
+
 .about p {
   font-size: 2.4rem;
   margin-top: 7px;
 }
+
 .about span {
   margin-top: -30px;
   display: block;
 }
+
 .features {
   background-color: #fff;
   text-align: center;
   flex-wrap: wrap;
   padding-bottom: 100px;
 }
+
 .features .f-features {
   width: 300px;
   /* width: calc(100% / 3) */
 }
+
 .features .f-features i {
   font-size: 2rem;
 }
+
 .features .f-features h3 {
   font-weight: 500;
 }
+
 .features .f-features p {
   font-size: 0.9rem;
   color: var(--sec-color);
 }
+
 .mockup {
   justify-content: space-around;
-  align-items:flex-start;
+  align-items: flex-start;
   background-color: #fff;
   padding: 50px 100px;
 }
+
 .mockup .mockup-text {
   width: 300px;
   text-align: left;
   line-height: 1.6;
 }
+
 .mockup .mockup-text i {
   color: var(--card-three-color);
   font-size: 2.5rem;
 }
+
 .mockup .mockup-text h3 {
   font-size: 1.7rem;
   font-weight: 400;
 }
+
 .mockup .mockup-text p {
   color: var(--sec-color);
 }
-.mockup .mockup-img img{
+
+.mockup .mockup-img img {
   max-width: 100%;
 }
+
 .application-google {
   background-color: #fff;
   justify-content: space-around;
   align-items: flex-start;
   padding-bottom: 100px;
 }
+
 .application-google .application-text {
   width: 300px;
 }
+
 .application-google .application-text h3 {
   font-size: 1.7rem;
   font-weight: 400;
 }
+
 .application-google .application-text p {
   color: var(--sec-color);
   line-height: 1.7;
 }
+
 .application-google .application-img {
   margin-top: 30px;
 }
+
 .standard-news {
   background-color: var(--background-color-section);
 }
-.news { 
+
+.news {
   background-color: var(--background-color-section);
   justify-content: space-around;
   flex-wrap: wrap;
   padding-bottom: 100px;
 }
+
 .news div {
   max-width: 250px;
   background-color: #fff;
   padding-bottom: 15px;
 }
-.news div img{
+
+.news div img {
   max-width: 250px;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
+
 .news .news-text {
   padding-left: 17px;
 }
+
 .news .news-text p:first-child {
-  font-size:  0.9rem;
+  font-size: 0.9rem;
   color: var(--card-three-color);
 }
-.news .news-text h3{
+
+.news .news-text h3 {
   font-weight: 600;
 }
+
 .news .news-text p {
   color: var(--sec-color);
 }
+
 .news .news-text span {
   color: var(--comment-color);
   font-size: 0.8rem;
 }
+
 .awesome-works {
   padding: 0 0 80px;
 }
+
 .awesome-works .nav-works ul {
   display: flex;
   justify-content: center;
 }
+
 .awesome-works .nav-works ul li {
   list-style-type: none;
 }
+
 .awesome-works .nav-works ul li a {
   text-decoration: none;
   color: var(--card-three-color);
   margin-left: 10px;
 }
+
 .awesome-works .awesome-imgs {
   justify-content: space-between;
   gap: 15px;
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .awesome-works .awesome-imgs div {
   width: calc(100% / 3);
 }
+
 .awesome-works .awesome-imgs img {
   max-width: 100%;
 }
+
 .awesome-imgs .top-img {
   align-self: flex-start;
 }
+
 .awesome-imgs .top-margin {
   margin-top: -115px;
 }
+
 .margin-top-rl {
   margin-top: 15px;
 }
-.standard-pricing ,
-.standard-pricing .standard{
+
+.standard-pricing,
+.standard-pricing .standard {
   background-color: var(--background-color-section);
 }
+
 .pricing {
   background-color: var(--background-color-section);
   margin-top: 30px;
   padding-bottom: 100px;
 }
+
 .pricing .row {
   flex-wrap: wrap;
   justify-content: space-evenly;
   gap: 20px;
 }
+
 .pricing-shadow {
-  box-shadow:none;
+  box-shadow: none;
 }
+
 .pricing .row .card {
   padding: 10px 0;
   height: 400px;
-  background-color:#fff;
+  background-color: #fff;
   width: 250px;
   box-shadow: 5px 10px 10px #ddd;
 }
+
 .pricing .card .top-card .btn-yell {
   color: var(--card-one-color);
 }
+
 .pricing .card span {
   font-size: 1.8rem;
   font-weight: 700;
 }
+
 .pricing .card .top-card span sup {
   font-size: 1rem;
   font-weight: normal;
 }
+
 .pricing .card p {
   color: var(--sec-color);
   font-size: 0.9rem;
 }
+
 .pricing .card .bottom-card span {
   padding-top: 50px;
   display: block;
 }
+
 .pricing .card .bottom-card .btn-yell {
   background-color: var(--card-one-color);
 }
+
 .pricing .card .bottom-card button {
   color: #fff;
   border: none;
   cursor: pointer;
   padding: 7px 70px;
 }
+
 .pricing .card .top-card .colo-aqua {
   color: var(--card-two-color);
 }
+
 .pricing .card .bottom-card .btn-aqua {
   background-color: var(--card-two-color);
 }
+
 .pricing .card .top-card .btn-red {
   color: var(--card-three-color);
 }
+
 .pricing .card .bottom-card .btn-red {
   background-color: var(--card-three-color);
 }
+
 .clients {
   background-color: #fff;
   width: 100%;
   display: flex;
 }
+
 .clients div {
-margin: auto;
-  width:130px;
+  margin: auto;
+  width: 130px;
 
 }
+
 .clients div img {
   max-width: 100%;
 }
+
 footer {
   justify-content: space-between;
-  box-shadow:none;
+  box-shadow: none;
   display: flex;
   align-items: center;
 }
+
 footer div i {
   margin-right: 15px;
   color: var(--th-color);
 }
+
 /* ************************media screens************************ */
 @media (max-width:600px) {
   body {
     margin: auto;
   }
+
   header nav .row {
     display: flex;
     align-items: center;
     flex-direction: column;
   }
+
   header nav .row li {
     margin-top: 10px;
   }
+
   header nav .row li a:hover {
     background-color: #000;
     color: #fff;
   }
+
   header .hero-sec {
-    width: 400px;
+    width: 90%;
   }
-  header .hero-sec h1{
+
+  header .hero-sec h1 {
     font-size: 2rem;
     font-weight: 400;
     margin-bottom: 40px;
   }
-    .standard {
-      margin: auto;
-    }
+
+  .standard {
+    margin: auto;
+  }
+
   /* .standard .text-stand h2,
   .standard .text-stand p  {
     text-align: center;
   } */
-  .standard .text-stand  {
+  .standard .text-stand {
     margin: auto;
     text-align: center;
     width: 80%;
   }
+
+  .standard .text-stand h2 {
+    font-size: 1.5rem;
+  }
+
   .build-website {
     flex-direction: column;
   }
+
   .about {
     flex-direction: column;
   }
+
   .about div {
     margin-bottom: 20px;
   }
-  .features div {
-    margin:auto;
+
+  .features {
+    padding: unset;
   }
+
+  .features div {
+    margin: auto;
+  }
+
   .features div:nth-last-child() {
     padding-bottom: 100px;
   }
-  .mockup .mockup-img img{
+
+  .mockup {
+    padding: unset;
+  }
+
+  .mockup .mockup-text {
+    text-align: center;
+  }
+  .mockup .mockup-text i {
+    font-size: 1.5rem;
+  }
+  .mockup .mockup-text h3 {
+    font-size: 1.3rem;
+  }
+
+  .mockup .mockup-img img {
     display: none;
   }
-  .application-google .application-text{
+
+  .application-google .application-text {
     display: none;
   }
-  .awesome-works .nav-works{
-    width: 80%;
+    .awesome-works  {
+      padding: unset;
+      font-size: 0.8rem;
+    }
+    .awesome-works .nav-works ul li a{
+      margin-left: 0;
+    }
+  .awesome-works .nav-works {
     margin: auto;
   }
+
   .awesome-works .awesome-imgs img {
     display: none;
   }
+
   .clients {
     flex-wrap: wrap;
   }
-  footer div{
-    display: block;
-    width: 100%;
+
+  footer {
+display: block;
   }
+
   form section .subj {
     margin: auto;
     width: 100px;
   }
 }
+
 @media (max-width:750px) {
   .features div {
     margin: auto;
   }
 }
+
 /* ************************contact page************************ */
 form {
   background-color: #fff;
@@ -463,28 +595,35 @@ form {
   width: 80%;
   padding-bottom: 100px;
 }
+
 form section {
   width: 60%;
   margin: auto;
 }
+
 form input {
   padding: 10px 50px;
   text-align: center;
   outline: none;
 }
-form textarea{
+
+form textarea {
   outline: none;
 }
+
 form input:first-child {
   margin-right: 30px;
 }
+
 form section .subj {
   width: 100%;
 }
+
 form section .user_name,
 form section .user_email {
   width: calc(90% / 2);
 }
+
 form section .user_subj,
 form section .user_tex_rea,
 form section .submit {
@@ -496,9 +635,10 @@ form section input[type=submit] {
   background-color: var(--card-three-color);
   color: #fff;
   text-align: center;
-  border:none;
-  cursor:pointer;
+  border: none;
+  cursor: pointer;
 }
+
 footer {
   background-color: var(--background-color-section);
 }
