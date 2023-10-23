@@ -511,6 +511,12 @@ footer div i {
   .build-website {
     flex-direction: column;
   }
+  .build-website div {
+    width: 100%;
+  }
+  .build-website div img{
+    width: 50%;
+  }
 
   .about {
     flex-direction: column;
