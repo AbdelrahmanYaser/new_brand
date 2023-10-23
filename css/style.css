@@ -312,7 +312,8 @@ header .hero-sec p {
 
 .awesome-works .nav-works ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  padding-left: 0;
 }
 
 .awesome-works .nav-works ul li {
@@ -359,7 +360,7 @@ header .hero-sec p {
 .pricing {
   background-color: var(--background-color-section);
   margin-top: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .pricing .row {
@@ -448,10 +449,9 @@ header .hero-sec p {
 }
 
 footer {
-  justify-content: space-between;
   box-shadow: none;
-  display: flex;
   align-items: center;
+  padding-bottom: 20px;
 }
 
 footer div i {
@@ -511,10 +511,12 @@ footer div i {
   .build-website {
     flex-direction: column;
   }
+
   .build-website div {
     width: 100%;
   }
-  .build-website div img{
+
+  .build-website div img {
     width: 50%;
   }
 
@@ -545,9 +547,11 @@ footer div i {
   .mockup .mockup-text {
     text-align: center;
   }
+
   .mockup .mockup-text i {
     font-size: 1.5rem;
   }
+
   .mockup .mockup-text h3 {
     font-size: 1.3rem;
   }
@@ -559,13 +563,21 @@ footer div i {
   .application-google .application-text {
     display: none;
   }
-    .awesome-works  {
-      padding: unset;
-      font-size: 0.8rem;
+    .news {
+      padding-bottom: unset;
     }
-    .awesome-works .nav-works ul li a{
-      margin-left: 0;
-    }
+  .news div {
+    margin-bottom: 40px;
+  }
+  .awesome-works {
+    padding: unset;
+    font-size: 0.8rem;
+  }
+
+  .awesome-works .nav-works ul li a {
+    margin-left: 0;
+  }
+
   .awesome-works .nav-works {
     margin: auto;
   }
@@ -579,7 +591,8 @@ footer div i {
   }
 
   footer {
-display: block;
+    display: block;
+    padding-bottom: 20px;
   }
 
   form section .subj {
